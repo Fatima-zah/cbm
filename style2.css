@@ -94,95 +94,8 @@ button
     background-color: blue;
     display: none;
     /* background-color: blue; */
-    #maroc{
-        height: 60px;
-        width: 100px;
-    }
-    .first{
-        width: 400px;
-        height: 400px;
-        background-color: white;
-        /* box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px; */
-        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-        margin-top:80px;
-        margin-left: 35%;
-        padding:100px;
-        text-align: center;
-    }
 
-    .sent h1{
-        font-size: 50px;
-        text-align: center;
-        color: rgb(255, 255, 255);
-        
-    }
-    .sent h3{
-        font-size: 25px;
-        width: 760px;
-        text-align: center;
-        margin-left: 23%;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    .exp{
-        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-        display: flex;
-        justify-content: center;
-        width: 700px;
-        height: 100px;
-        margin-top:40px;
-        margin-left: 25%;
-       
-        
-    }
-    .exp h3{
-        font-size: 35px;
-        margin-right: 20%;
-        color: #000000;
-    }
-    .exp h4{
-        font-size: 30px;
-        color: #ffffff;
-        margin-left: 20%;
-    }
-    .exp img{
-        margin-top: 20px;
-    }
-    
-    .fill {
-        font-size: 20px;
-        font-weight: 200;
-        letter-spacing: 1px;
-        padding: 13px 50px 13px;
-        outline: 0;
-        border: 1px solid black;
-        cursor: pointer;
-        position: relative;
-        background-color: rgba(0, 0, 0, 0);
-        margin-left: 42%;
-        margin-top: 6%;
-      }
-      
-      .fill::after {
-        content: "";
-        background-color: #ffffff;
-        width: 100%;
-        z-index: -1;
-        position: absolute;
-        
-        height: 100%;
-        top: 7px;
-        left: 7px;
-        transition: 0.2s;
-      }
-      
-      .fill:hover::after {
-        top: 0px;
-        left: 0px;
-      }
-    .bod{
-        background-image: url(bat.jpg);
-        background-size: cover;   
-    }
+  
     #read{
         outline: none;
         margin-top: 4%;
@@ -196,3 +109,41 @@ button
         border-radius: 10px;
         text-align: center;
     }
+    /* /////////////////////////////////////////////////////// */
+    
+    .styly{
+        background: #5F6579;
+    }
+    .drapos{
+        display: flex;
+        width: 594px;
+        height: 261px;
+        margin-left: 797px;
+        background: rgba(255, 255, 255, 0.59);
+        border-radius: 35px;
+        margin-top: -180px;
+        
+    }
+    .position{
+        display: flex;
+        
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+   #sbm{
+       height: 40px;
+       width: 150px;
+       border-radius: 10px;
+       border: none;
+       cursor: pointer;
+       margin-left :72%;
+       
+   }
+   .bateau{
+    
+    width: 1374px;
+    height: 375px;
+    left: 0px;
+    top: 466px;
+    
+   }

@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
     <title>Document</title>
 </head>
-   
-<body class="bod">
-    <div class="sent">
-    <h1 >OBTENEZ UN DEVIS D'EXPÉDITION INTERNATIONALE GRATUIT EN LIGNE</h1>
-    <h3>Petits ou grand colis, palettes, nous pouvons vous proposer un devis de vos envois  internationaux instantanément. Veuillez saisir ci-dessous, les informations relatives à votre envoi pour obtenir votre devis.</h3>
-    </div>
-    <div class="exp">
-        <h3>De</h3>
-        <img style="width: 70px; height:50px ;" src="maro.png" >
-        <h4>Vers</h4>
+<body class="styly">
+    <section>
 
+
+    <div style="color: white;">
+        <h1 style="font-size:50px; ">OBTENEZ UN DEVIS D'EXPÉDITION INTERNATIONALE GRATUIT EN LIGNE</h1>
     </div>
-    <a href="log-in.php"><button type="button" class="fill">Continuer</button></a>
+    <div class="drapos" >
+        <div class="position">
+        <p>De</p>
+        <img style="width: 80px;height: 70px;;" src="maro.png">
+        <p>Vers</p>
+        <img style="width: 80px;height: 70px;;" src="spaiin.png">
+        
+    
+            </div>
+        </div>
+        <button id="sbm">Submit</button>
+        <img  src="shipping-services-1.jpg" class="bateau">
+
+        </section>
 </body>
 </html>
