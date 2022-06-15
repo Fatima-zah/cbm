@@ -24,12 +24,13 @@ margin-bottom: 10px;
 .container{
     position: relative;
     max-width: 430px;
+    
     width: 100%;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(2, 5, 56);
     overflow: hidden;
-    margin: 0 200px;
+    margin: 0 460px;
 }
 
 .container .forms{

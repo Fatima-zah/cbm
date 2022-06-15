@@ -37,7 +37,7 @@
         $query = mysqli_query($conn, $sql);
   
        if(! headers_sent()){
-        header("location: customers.php");
+        header("location: index2.php");
        }else{
          echo '<script type="text/javascript">window.location.href="customers.php"</script>';
        }

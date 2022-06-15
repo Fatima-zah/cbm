@@ -10,8 +10,19 @@
 </head>
 <body>
     <header>
+        <?php
+            // session_start();
+            // if(isset($_SESSION["id"])) {
+
+            
+        ?>
+            <a href="first.php"><div id=""style="display: flex; justify-content: flex-end;"> <img src="./logout.png" alt="" width="2%" style="margin-right: 51px;cursor : pointer;  " ></div></a>
+        <?php 
+            // }
+        ?>
         <form action="index2.php" method="POST">
         <?php
+        include"connection.php";
                 $res = 0;
                 if (isset($_GET["delete"])) {
                     $total = "";
@@ -32,7 +43,12 @@
                     $res = $poidsliv;
                     } else {
                     $res = $allliv;
+
+
+                    $sql = "INSERT INTO simulation (poids,longueur,largeur,hauteur,total) VALUES ('$poids','$longueur','$largeur','$hauteur','$res')";
+                    $query = mysqli_query($conn, $sql);
                     }
+
                     // header("location: index1.php");
                 }
         ?>
@@ -47,7 +63,8 @@
                 <input type="number" name="hauteur" required id="hauteur"  class="input"  placeholder="Hauteur (cm)">
                 <div class="spsvali">
                     <button type="submit" id="done" name="submit"class="btn" style="    color: #ffffff;
-    background-color: #162c43;" onclick="myFunction()">Submit</button>
+                            background-color: #162c43;" onclick="myFunction()">Submit</button>
+
                     <a href="index2.php?delete=<?php echo 1 ?>" class="btn btn-danger clear">Clear</a>
                 </div>
 
@@ -63,6 +80,7 @@
       }
       ?>
     </div>
+
      <!-- <script>
     var poids = document.getElementById("poids")
     var lang = document.getElementById("longueur")

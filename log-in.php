@@ -39,6 +39,8 @@
           if($valid != 0){
             echo  "<p style=\"color: red;\">wrong email or password</p>";
           }else{
+            // $row = mysqli_fetch_array($checkPwd, MYSQLI_ASSOC);
+            // $_SESSION["id"]=$row["id"];
             header("Location: index2.php"); 
             exit(); 
           }
