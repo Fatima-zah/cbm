@@ -20,7 +20,7 @@
 
   <div class="container">
     
-        <div class="forms">
+        <div class="login">
             <div class="form login">
                 <div style="text-align:center;"> <h2>SIGN-UP</h2> </div>
 
@@ -52,8 +52,6 @@
         }
     ?>
 
-                
-
 
                     <div class="input-field">
                         <input type="email" name="email" placeholder="Enter your email" required>
@@ -65,7 +63,6 @@
                         <i class="uil uil-lock icon"></i>
                         <i class="uil uil-eye-slash showHidePw"></i>
                     </div>
-
                     <div class="checkbox-text">
                         <div class="checkbox-content">
                             <input type="checkbox" id="logCheck">

@@ -11,12 +11,18 @@
 <body>
     <header>
         <?php
-            // session_start();
-            // if(isset($_SESSION["id"])) {
+            session_start();
+            if(isset($_SESSION["id"])) {
+                echo $_SESSION["id"];
+            }
 
             
         ?>
-            <a href="first.php"><div id=""style="display: flex; justify-content: flex-end;"> <img src="./logout.png" alt="" width="2%" style="margin-right: 51px;cursor : pointer;  " ></div></a>
+        <div style="display:flex;justify-content: flex-end;margin-left: 85%;" >
+                <a href="historique.php"><div id=""s> <img src="./history.png" alt="" width="34%" style="cursor : pointer;  " ></div></a>
+
+            <a href="first.php"><div id=""> <img src="./logout.png" alt="" width="30%" style="cursor : pointer;  " ></div></a>
+            </div>
         <?php 
             // }
         ?>

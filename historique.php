@@ -9,22 +9,24 @@
     <link rel="stylesheet" href="style2.css">
     <title>Document</title>
 </head>
-<body>
-    <div class="hist">
+<body class="hist">
 
 
-    <table class="table">
-        <thead>
-            <tr >
-            <td scope="col">id</td>
-            <td scope="col">poids</td>
-            <td scope="col">longueur</td>
-            <td scope="col">largeur</td>
-            <td scope="col">hauteur</td>
-            <td scope="col">total</td>
-        </tr>
-        </thead>
-
+    </div> -->
+    <a href="first.php"><div id=""style="display: flex; justify-content: flex-end;"> <img src="./logout.png" alt="" width="2%" style="margin-right: 60px;margin-top:3%;cursor : pointer;  " ></div></a>
+    <h1>Historique</h1>
+    <div class="table" >
+    <table class="table table-dark">
+    <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Poids</th>
+      <th scope="col">Longueur</th>
+      <th scope="col">Largeur</th>
+      <th scope="col">Hauteur</th>
+      <th scope="col">Total</th>
+    </tr>
+  </thead>
         <?php include"connection.php";
          $sql = "SELECT id,poids,longueur,largeur,hauteur,total FROM simulation ORDER BY id DESC LIMIT 10";
          $result =$conn->query($sql);
@@ -39,11 +41,9 @@
                  <td>'.$row['total'].'</td>
                  </tr>';
              }
-         }
+         } 
          ?>
-             </table>
-
-
+  </table>
     </div>
 
 </body>

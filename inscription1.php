@@ -15,7 +15,7 @@
     <div class="container">
         <div class="forms">
             <div class="form login">
-                <div style="text-align:center;margin-top:8%"> <h2>SIGN-IN</h2> </div>
+                <div style="text-align:center;margin-top:8%"> <h2>SIGN-UP</h2> </div>
 
 
                 <form action="" method="POST">
@@ -72,7 +72,7 @@
                             <label for="logCheck" class="text">Remember me</label>
                         </div>
                         
-                        <a href="log-in.php" class="text">SIGN UP?</a>
+                        <a href="log-in.php" class="text">SIGN IN?</a>
                     </div>
 
                     <div class="sub">
